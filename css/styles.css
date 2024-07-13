@@ -473,8 +473,9 @@
   }
 
   .project-card-view-portfolio {
+
       width: calc((100% - 48px) / 3);
-      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
 
   .project-card-title-data {
@@ -483,11 +484,12 @@
       border-top: none;
   }
 
-  .project-img-text:hover {
+  .project-card-view-portfolio:hover .project-img-text {
       transform: translateY(0%);
   }
 
   .project-img {
+
       position: relative;
       overflow: hidden;
   }
